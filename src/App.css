@@ -1,0 +1,32 @@
+/* Home */
+
+#home {
+    background: #fceabb;
+    background: linear-gradient(to right, #f8b500, #fceabb);
+    min-height: 300px;
+}
+
+.navbar {
+    background: #232F3E;
+}
+
+.form {
+    background: #F7971E;
+    /* fallback for old browsers */
+    background: linear-gradient(to left, #FFD200, #F7971E);
+}
+
+.footer {
+    background: #232F3E;
+    height: calc(100% - 60px);
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrapper {
+    flex: 1;
+}
